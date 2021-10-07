@@ -4,18 +4,6 @@ import CallApi from '../Utils/CallApi';
 
 export function* getData(payload) {
   try {
-    // const response = yield call(
-    //   CallApi,
-    //   'get',
-    //   'users/home/promotions?banner=true',
-    //   {},
-    //   payload.payload,
-    // );
-    // let data = response.data.response.data;
-    // yield put({
-    //   type: UPDATE_PROMO_DATA,
-    //   payload: data,
-    // });
     const response = yield call(
       CallApi,
       'get',

@@ -26,7 +26,6 @@ let Home = ({home, ...restProps}) => {
 
   useEffect(() => {
     setImages(data);
-    console.log('dataaaa', data.slice(0, 5));
   }, [data]);
 
   return (
